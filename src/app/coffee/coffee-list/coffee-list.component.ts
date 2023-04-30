@@ -19,6 +19,10 @@ export class CoffeeListComponent implements OnInit {
     });
   }
 
+  getCountByTipo(tipo: string): number {
+    return this.coffees.filter(coffee => coffee.tipo === tipo).length;
+  }
+
   ngOnInit() {
     this.getCoffees();
   }

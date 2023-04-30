@@ -22,3 +22,8 @@ thead {
 tr {
   font-size: 18px;
 }
+
+p {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
